@@ -1,0 +1,35 @@
+﻿  正在验证源
+  正在将源远程复制到“101.42.12.250”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  ConnectionPool.cpp
+D:\Windons\代码\c++\kuangfuchuang_server\kuangfuchuang\ConnectionPool.cpp(94,47): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+D:\Windons\代码\c++\kuangfuchuang_server\kuangfuchuang\ConnectionPool.cpp(94,47): warning :          if (((m_connectionQ.size() + busynum) < m_maxSize && m_connectionQ.size() <m_minSize)) {
+D:\Windons\代码\c++\kuangfuchuang_server\kuangfuchuang\ConnectionPool.cpp(94,47): warning :               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+D:\Windons\代码\c++\kuangfuchuang_server\kuangfuchuang\ConnectionPool.cpp(94,83): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+D:\Windons\代码\c++\kuangfuchuang_server\kuangfuchuang\ConnectionPool.cpp(94,83): warning :          if (((m_connectionQ.size() + busynum) < m_maxSize && m_connectionQ.size() <m_minSize)) {
+D:\Windons\代码\c++\kuangfuchuang_server\kuangfuchuang\ConnectionPool.cpp(94,83): warning :                                                               ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+D:\Windons\代码\c++\kuangfuchuang_server\kuangfuchuang\ConnectionPool.cpp(97,50): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+D:\Windons\代码\c++\kuangfuchuang_server\kuangfuchuang\ConnectionPool.cpp(97,50): warning :          else if((m_connectionQ.size() + busynum) == m_maxSize){
+D:\Windons\代码\c++\kuangfuchuang_server\kuangfuchuang\ConnectionPool.cpp(97,50): warning :                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+D:\Windons\代码\c++\kuangfuchuang_server\kuangfuchuang\ConnectionPool.cpp(117,23): warning : unused variable ‘livetime’ [-Wunused-variable]
+D:\Windons\代码\c++\kuangfuchuang_server\kuangfuchuang\ConnectionPool.cpp(117,23): warning :              long long livetime = conn->getAliveTime();
+D:\Windons\代码\c++\kuangfuchuang_server\kuangfuchuang\ConnectionPool.cpp(117,23): warning :                        ^~~~~~~~
+  Logger.cpp
+D:\Windons\代码\c++\kuangfuchuang_server\kuangfuchuang\Logger.cpp(62,26): warning : conversion to ‘int’ from ‘std::streamoff {aka long int}’ may alter its value [-Wconversion]
+D:\Windons\代码\c++\kuangfuchuang_server\kuangfuchuang\Logger.cpp(62,26): warning :      m_len = m_fout.tellp();
+D:\Windons\代码\c++\kuangfuchuang_server\kuangfuchuang\Logger.cpp(62,26): warning :                           ^
+  main.cpp
+  MysqlConn.cpp
+  UDPServer.cpp
+D:\Windons\代码\c++\kuangfuchuang_server\kuangfuchuang\UDPServer.cpp(51,36): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\Windons\代码\c++\kuangfuchuang_server\kuangfuchuang\UDPServer.cpp(51,36): warning :      serverAddress.sin_port = htons(port);
+D:\Windons\代码\c++\kuangfuchuang_server\kuangfuchuang\UDPServer.cpp(51,36): warning :                                     ^~~~
+D:\Windons\代码\c++\kuangfuchuang_server\kuangfuchuang\UDPServer.cpp(383,52): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\Windons\代码\c++\kuangfuchuang_server\kuangfuchuang\UDPServer.cpp(383,52): warning :                  clientAddress.sin_port = htons(port);
+D:\Windons\代码\c++\kuangfuchuang_server\kuangfuchuang\UDPServer.cpp(383,52): warning :                                                     ^
+D:\Windons\代码\c++\kuangfuchuang_server\kuangfuchuang\UDPServer.cpp(339,10): warning : unused variable ‘a’ [-Wunused-variable]
+D:\Windons\代码\c++\kuangfuchuang_server\kuangfuchuang\UDPServer.cpp(339,10): warning :      bool a = conn->connect("root", "Hckj201509", "share1", "127.0.0.1", 3306);
+D:\Windons\代码\c++\kuangfuchuang_server\kuangfuchuang\UDPServer.cpp(339,10): warning :           ^
